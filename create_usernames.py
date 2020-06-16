@@ -26,3 +26,21 @@ for name in names:
 print(usernames)
 
 # Output : ['joey_tribbiani', 'monica_geller', 'chandler_bing', 'phoebe_buffay']
+
+#Provided Solution 
+
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+usernames = []
+
+for name in names:
+    usernames.append(name.lower().replace(" ", "_"))
+
+print(usernames)
+
+#Provided Solution using Range 
+usernames = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+
+for i in range(len(usernames)):
+    usernames[i] = usernames[i].lower().replace(" ", "_")
+
+print(usernames)
