@@ -1,0 +1,35 @@
+
+# Your code should add up the odd numbers in the list, but only up to the first 5 odd numbers together. 
+# If there are more than 5 odd numbers, you should stop at the fifth.
+# If there are fewer than 5 odd numbers, add all of the odd numbers.
+
+# My Solution
+
+num_list = [422, 136, 524, 85, 96, 719, 85, 92, 10, 17, 312, 542, 87, 23, 86, 191, 116, 35, 173, 45, 149, 59, 84, 69, 113, 166]
+
+#leng_list = num_list.len()
+odd_counter = 0
+sum_odd = 0
+
+for num in num_list:
+    if (num % 2 != 0 and odd_counter < 5):
+        sum_odd += num
+        odd_counter += 1
+        print(num)
+        print("the sum of odd numbers "+str(sum_odd))
+        
+# Output
+85
+the sum of odd numbers 85
+719
+the sum of odd numbers 804
+85
+the sum of odd numbers 889
+17
+the sum of odd numbers 906
+87
+the sum of odd numbers 993
+
+
+
+# Provided Solution 
