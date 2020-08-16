@@ -53,3 +53,5 @@ for headline in headlines:
 
 print(news_ticker)
    
+#Output
+Local Bear Eaten by Man Legislature Announces New Laws Peasant Discovers Violence Inherent in System Cat Rescues Fireman Stuck in Tree Brave
